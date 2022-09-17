@@ -37,3 +37,17 @@ Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las f
 ~~~
 - http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura-detalle/48 <br>
 ***48*** es el id de la factura
+
+### Cargar Facturas
+~~~
+ http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-check
+~~~
+- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-check <br>
+
+### Cargar Detalle Facturas
+~~~
+ http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/check-detail
+~~~
+- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/check-detail <br>
+
+
