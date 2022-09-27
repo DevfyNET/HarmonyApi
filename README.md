@@ -2,7 +2,7 @@
 
 
 ## EndPoint Api
-- http://172.16.28.4:3001/api/
+- http://172.16.40.63:3001/api/
 
 ## Configuración
 El api necesita de un usuario y una llave de acceso, la cual sera otorgada por el administrador del sistema, un ejemplo seria el siguiente:
