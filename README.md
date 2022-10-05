@@ -50,7 +50,7 @@ Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las f
 ~~~
 - http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/check-detail <br>
 
-### Facturas con detalle
+### Factura con detalle
 ~~~
  http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/factura/{{ ID Factura }}
 ~~~
