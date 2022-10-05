@@ -18,7 +18,7 @@ El usuario que necesite acceso al Api fuera de la red, tendra que hacerlo por me
 
 ### Mostrar todas las facturas
 ~~~
- http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/{{ ID Factura }}
+ http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/0
 ~~~
 - http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura/0 <br>
 Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las facturas
@@ -49,5 +49,11 @@ Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las f
  http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/check-detail
 ~~~
 - http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/check-detail <br>
+
+### Facturas con detalle
+~~~
+ http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/factura/{{ ID Factura }}
+~~~
+- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/factura/20467 <br>
 
 
