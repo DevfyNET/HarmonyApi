@@ -62,7 +62,7 @@ Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las f
  http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/opera/oracle/folio/{{ Numero de folio }}/{{ Fecha Desde }}/{{ Fecha Hasta }}
 ~~~
 - http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/opera/oracle/folio/4622/20221201/20221230 <br>
-El formato de la fecha desde y hasta tiene que ser en el siguiente formato ***20221201(Año, Mes y Día), sin guiones y todo junto***. <br>
+El formato de la fecha desde y hasta tiene que ser en el siguiente ***20221201(Año, Mes y Día), sin guiones y todo junto***. <br>
 Al enviar el valor de 0 el Api entiende que tiene que devolver todos los folios ya sea folio o por fechas.
 
 
