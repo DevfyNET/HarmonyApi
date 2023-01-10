@@ -18,17 +18,19 @@ El usuario que necesite acceso al Api fuera de la red, tendra que hacerlo por me
 
 ### Mostrar todas las facturas
 ~~~
- http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/0
+ http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/0/0/0
 ~~~
 - http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura/0 <br>
 Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las facturas
 
 ### Mostrar solo una factura
 ~~~
- http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/{{ ID Factura }}
+ http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/{{ ID Factura }}/{{ Fecha Desde }}/{{ Fecha Hasta}}}
 ~~~
-- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura/48 <br>
-***48*** es el id de la factura
+- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura/48/20221201/20221230<br>
+***48*** es el id de la factura<br>
+El formato de la fecha desde y hasta tiene que ser en el siguiente ***20221201(Año, Mes y Día), sin guiones y todo junto***. <br>
+Al enviar el valor de 0 el Api entiende que tiene que devolver todos las facturas.
 
 
 ### Mostrar detalle una factura
