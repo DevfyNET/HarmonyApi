@@ -107,6 +107,23 @@ Al enviar el valor de 0 el Api entiende que tiene que devolver todos las factura
  http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/opera/oracle/cargo/habitacion/
 ~~~
 
+<ul>
+<li><p>El "room" es la habitación</p></li>
+<li><p>El "amount" es el monto total</p></li>
+<li><p>El "nro_cheque" es el numero de cheque, <strong>(Se permite que sea nulo, para que sea nuelo tiene que enviar de valor un cero)</strong></p></li>
+<li><p>El "resv_name" es el numero de reserva</p></li>
+<li><p>El "quantity" es la cantidad de productos o lineas ingresadas</p></li>
+<li><p>El "reference" es un texto de referencia <strong>(Se permite que sea nulo, para que sea nuelo tiene que enviar de valor un cero)</strong></p></li>
+<li><p>"trx_code"</p></li>
+<li><p>El "price_per_unit" es el precio por unidad</p></li>
+<li><p>El "IVA", es si el producto o linea lleva o no IVA</p>
+<ul>
+ <li><p>El "amount_iva" es el monto del IVA</p></li>
+ <li><p>El "price_per_unit_iva" el monto del IVA por producto o linea</p></li> 
+</ul>
+</li>
+</ul>
+
 ###### Ejemplo del Body request JSON
 ```JSON
 {
@@ -115,7 +132,7 @@ Al enviar el valor de 0 el Api entiende que tiene que devolver todos las factura
     "nro_cheque": "7978",
     "resv_name": "219326",
     "quantity": 1,
-    "reference": "prueba Luis 11",
+    "reference": "Referencia de Prueba",
     "trx_code": "7003",
     "price_per_unit": 30,
     "IVA": 1,
