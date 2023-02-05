@@ -110,8 +110,8 @@ Al enviar el valor de 0 el Api entiende que tiene que devolver todos las factura
 <ul>
 <li><p>El "room" es la habitación</p></li>
 <li><p>El "amount" es el monto total</p></li>
-<li><p>El "nro_cheque" es el numero de cheque, <strong>(Se permite que sea nulo, para que sea nuelo tiene que enviar de valor un cero)</strong></p></li>
-<li><p>El "resv_name" es el numero de reserva</p></li>
+<li><p>El "nro_cheque" es el número de cheque, <strong>(Se permite que sea nulo, para que sea nuelo tiene que enviar de valor un cero)</strong></p></li>
+<li><p>El "resv_name" es el id de reserva</p></li>
 <li><p>El "quantity" es la cantidad de productos o lineas ingresadas</p></li>
 <li><p>El "reference" es un texto de referencia <strong>(Se permite que sea nulo, para que sea nuelo tiene que enviar de valor un cero)</strong></p></li>
 <li><p>"trx_code"</p></li>
