@@ -23,7 +23,7 @@ El usuario que necesite acceso al Api fuera de la red, tendra que hacerlo por me
 ~~~
  http://172.16.40.63:3001/api/{{ Usuario }}/{{ Llave Acceso }}/caps/hh-factura/0/0/0
 ~~~
-- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura/0 <br>
+- http://172.16.40.63:3001/api/8z4WsOYqHM/QPNT50byugANM1HWeZ6xcxEorVQzrTfY/caps/hh-factura/0/0/0 <br>
 Al enviar el valor de ***0*** el Api entiende que tiene que devolver todas las facturas
 
 ### Mostrar solo una factura
